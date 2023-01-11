@@ -1,5 +1,8 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=PT+Serif:wght@700&display=swap');
+body{
+    margin: 0;
+}
 li {
     list-style-type: none;
 }
@@ -9,7 +12,7 @@ a {
     color: white;
 }
 a:hover{
-    color: blue;
+    color: #5656f8;
 }
 ul {
     margin: 0;
@@ -20,16 +23,15 @@ ul {
     display: flex;
     gap: 13px;
     background-color: #1f2937;
-    padding: 10px;
-    margin: -18px;
     padding: 25px;
     justify-content: space-around;
 
 }
 .logo{
+    display: flex;
+    justify-content: space-around;
     color: #f9faf8;
     font-size: 24px;
-    margin-left: 30px;
     font-family: 'Lora', serif;
 
 }
@@ -50,12 +52,14 @@ ul {
     justify-content: flex-end;
     
 }
-#hero-img{
-    width: 450px;
-    height: auto;
-    margin-right: 50px;
-
+.img-hero{
+    display: flex;
+    border: none;
+    padding: 30px;
+    height: 250px;
+    width: 250px;
 }
+
  .welcome{
     display: flex;
     gap: 30px;
@@ -63,9 +67,7 @@ ul {
     align-items: center;
     background-color: #1f2937;
     text-align: center;
-    padding: 30px;
-    margin: 0 -30px 0 -30px;
-    height: 370px;
+    padding:50px;
     
  }
  .headline > h1{
@@ -81,7 +83,7 @@ ul {
     font-weight:100;
     margin:0;
  }
- #button1{
+ .button{
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
@@ -91,9 +93,9 @@ ul {
     text-decoration: none;
     margin: 5px;
     display: flex;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
  }
  .headline{
     display: flex;
@@ -104,3 +106,112 @@ ul {
     text-align: left;
     width: 370px;
  }
+ .head-text{
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+ }
+ .head-text > h3{
+    margin-top: 0;
+ }
+ .services{
+    background-color: #f9faf8;
+    padding: 50px;
+ }
+ .card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+ }
+ .inner-box{
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0;
+    height: 50px;
+    width: 50px;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
+}
+.card > p{
+    margin-top: 0;
+    width: 150px;
+    text-align:center
+}
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    font-size: 26px;
+   
+}
+blockquote{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+}
+cite{
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.call-action{
+    background-color: #e0dddd;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.call-card{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    margin: 40px;
+}
+.call-box-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    padding: 10px;
+    flex: 1;
+    
+}
+.call-box-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin:0;
+    padding: 10px;
+}
+.button1{
+    border: 1px solid #f9faf8;
+    color: #e0dddd;
+    padding: 10px;
+}
+.call-box-one > p{
+    margin: 0;
+    color: #f9faf8;
+}
+.call-box-one > h3{
+    margin: 0;
+    color: #f9faf8;
+}
