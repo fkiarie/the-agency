@@ -215,3 +215,15 @@ cite{
     margin: 0;
     color: #f9faf8;
 }
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e0dddd;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lora', serif;
+    font-family: 'PT Serif', serif;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
